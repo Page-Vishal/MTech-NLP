@@ -9,8 +9,9 @@ self-contained Jupyter notebook with its input data, its output, and its own REA
 
 | Folder | What it offers |
 | --- | --- |
-| [Assignment-1/](Assignment-1/) | Part-of-speech extraction. Tags an English news article with NLTK and exports every noun and verb to CSV. |
-| [Assignment-2/](Assignment-2/) | Named entity recognition. Finds the people, places, organisations and dates in the same article with spaCy and exports them to CSV. |
+| [Chapter-1/Assignment-1/](Chapter-1/Assignment-1/) | Part-of-speech extraction. Tags an English news article with NLTK and exports every noun and verb to CSV. |
+| [Chapter-1/Assignment-2/](Chapter-1/Assignment-2/) | Named entity recognition. Finds the people, places, organisations and dates in the same article with spaCy and exports them to CSV. |
+| [Chapter-2/](Chapter-2/) | Statistical NLP. 11 exercises (frequency, vocabulary, co-occurrence, smoothing, TF-IDF, cosine similarity, conditional probability) plus a standalone interactive bigram next-word predictor. |
 
 Top-level files:
 
@@ -39,7 +40,7 @@ uv run python -m spacy download en_core_web_sm
 Notebooks use **relative paths**, so the working directory must be the assignment folder.
 
 ```bash
-cd Assignment-1
+cd Chapter-1/Assignment-1
 uv run --with jupyter jupyter nbconvert \
   --to notebook --execute --inplace VishalSigdel_POS_01.ipynb
 ```
