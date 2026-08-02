@@ -11,7 +11,7 @@ Extract every **noun** and **verb** from an English news article using NLTK and 
 | `news.txt` | source article, plain text — "Broad Peak avalanche wipes out a generation of Nepali climbing greats" |
 | `VishalSigdel_POS_01.ipynb` | the solution notebook |
 | `VishalSigdel_POS_01.csv` | output — columns `Word`, `POS_Tag` |
-| `Assignment_1.pdf` | assignment brief |
+| `Assignment_1.pdf` | assignment brief — covers both Assignment 01 and Assignment 02 |
 
 ## Process
 

@@ -1,6 +1,6 @@
 # MTech-NLP
 
-Coursework repository for the MTech NLP module — one folder per assignment, each a
+Coursework repository for the MTech NLP module, one folder per assignment, each a
 self-contained Jupyter notebook with its input data, its output, and its own README.
 
 **Author:** Vishal Sigdel
@@ -10,6 +10,7 @@ self-contained Jupyter notebook with its input data, its output, and its own REA
 | Folder | What it offers |
 | --- | --- |
 | [Assignment-1/](Assignment-1/) | Part-of-speech extraction. Tags an English news article with NLTK and exports every noun and verb to CSV. |
+| [Assignment-2/](Assignment-2/) | Named entity recognition. Finds the people, places, organisations and dates in the same article with spaCy and exports them to CSV. |
 
 Top-level files:
 
@@ -24,6 +25,13 @@ Managed with [uv](https://docs.astral.sh/uv/). Python 3.14+.
 
 ```bash
 uv sync
+```
+
+Assignment-2 additionally needs spaCy's English pipeline, which ships separately from the
+library:
+
+```bash
+uv run python -m spacy download en_core_web_sm
 ```
 
 ## Running a notebook
