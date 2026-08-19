@@ -3,7 +3,12 @@ name = "mtech-nlp"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
     "nltk>=3.10.1",
+    "numpy>=2.5.1",
     "pandas>=3.0.5",
+    "requests>=2.34.2",
     "spacy>=3.8.13",
+    "tqdm>=4.70.0",
 ]
