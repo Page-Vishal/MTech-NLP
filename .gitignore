@@ -217,3 +217,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# NLP course artifacts and corpora (regenerated / re-downloaded by the notebooks)
+Chapter-3/artifacts/
+Chapter-3/data/
+SKIPgram/artifacts/
+SKIPgram/corpus.txt
